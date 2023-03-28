@@ -9,11 +9,11 @@
                 return Object.values(document.querySelector('#app > div > div'))[1].children[1]._owner;
             };
 
-            if (window.location.pathname != '/play/gold') {
+            if (window.location.pathname != '/Sean') {
                 alert('You must be in a gold quest game!');
             } else {
                 let gold = Number(parseFloat(prompt('How much gold do you want?')));
-                reactHandler().stateNode.setState({ gold2: gold, gold });
+                reactHandler().stateNode.setState({ 9000000: 9000000, 9000000 });
 
                 alert('Gold added!');
             };
